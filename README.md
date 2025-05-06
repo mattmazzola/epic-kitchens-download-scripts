@@ -1,5 +1,21 @@
 # The EPIC KITCHENS downloader
 
+## Magma Specific README
+
+### Setup
+
+```sh
+uv sync
+```
+
+### Download Sample
+
+```sh
+uv run epic_downloader.py \
+--videos \
+--participants 1
+```
+
 We provide a `python` script to download both the EPIC KITCHENS-100 and EPIC KITCHENS-55 datasets, either in its entirety or in parts (e.g. only RGB frames). You can download data for a subset of participants, as well as a specific split for a certain challenge (e.g. the `test` split for `action retrieval`). You can also download only the dataset's extension, i.e. only the new data collected for EPIC KITCHENS-100.
 
 #### Python version
