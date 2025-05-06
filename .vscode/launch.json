@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Download Videos",
+            "name": "epic_downloader",
             "type": "debugpy",
             "request": "launch",
             "module": "epic_downloader",
