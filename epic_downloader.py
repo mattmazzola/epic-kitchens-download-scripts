@@ -26,8 +26,10 @@ def print_header(header, char='*'):
 
 class EpicDownloader:
     def __init__(self,
-                 epic_55_base_url='https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d',
-                 epic_100_base_url='https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m',
+                 epic_55_base_url='https://academictorrents.com/details/d08f4591d1865bbe3436d1eb25ed55aae8b8f043',
+                #  epic_55_base_url='https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d',
+                 epic_100_base_url='https://academictorrents.com/details/cc2d9afabcbbe33686d2ecd9844b534e3a899f4b',
+                #  epic_100_base_url='https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m',
                  masks_base_url='https://data.bris.ac.uk/datasets/3l8eci2oqgst92n14w2yqi5ytu',
                  base_output=str(Path.home()),
                  splits_path_epic_55='data/epic_55_splits.csv',
